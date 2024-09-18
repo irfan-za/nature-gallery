@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/widgets/image_grid.dart';
-import 'package:myapp/widgets/search_bar_gallery.dart';
+import 'package:nature_gallery/widgets/image_grid.dart';
+import 'package:nature_gallery/widgets/search_bar_gallery.dart';
 
 
 class HomePage extends StatefulWidget {

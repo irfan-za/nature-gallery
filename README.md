@@ -1,16 +1,83 @@
-# myapp
+<p align="center">
+    <h1 align="center">NATURE GALLERY app</h1>
+</p>
 
-A new Flutter project.
+##### Table of Contents
+
+- [ Repository Structure](#-repository-structure)
+- [ Getting Started](#-getting-started)
+  - [ Installation](#-installation)
+  - [ Usage](#-usage)
+  - [ Tests](#-tests)
+
+---
+
+## Repository Structure
+
+```sh
+└── nature-gallery/
+    ├── README.md
+    ├── analysis_options.yaml
+    ├── android
+    │   ├── .gitignore
+    │   ├── app
+    │   ├── build.gradle
+    │   ├── gradle
+    │   ├── gradle.properties
+    │   └── settings.gradle
+    ├── lib
+    │   ├── main.dart
+    │   ├── screens
+    │   └── widgets
+    ├── pubspec.lock
+    ├── pubspec.yaml
+    ├── test
+    │   └── widget_test.dart
+    └── web
+        ├── favicon.png
+        ├── icons
+        ├── index.html
+        └── manifest.json
+```
+
+---
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Installation
 
-A few resources to get you started if this is your first Flutter project:
+Build the project from source:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the nature-gallery repository:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```sh
+❯ git clone https://github.com/irfan-za/nature-gallery
+```
+
+2. Navigate to the project directory:
+
+```sh
+❯ cd nature-gallery
+```
+
+3. Install the required dependencies:
+
+```sh
+❯ flutter pub get
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+❯  flutter run
+```
+
+### Tests
+
+Execute the test suite using the following command:
+
+```sh
+❯ flutter test
+```

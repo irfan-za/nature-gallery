@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:myapp/main.dart';
-import 'package:myapp/screens/splash_screen.dart';
-import 'package:myapp/screens/home_page.dart';
+import 'package:nature_gallery/main.dart';
+import 'package:nature_gallery/screens/splash_screen.dart';
+import 'package:nature_gallery/screens/home_page.dart';
 
 void main() {
   testWidgets('SplashScreen appears and navigates to HomePage', (WidgetTester tester) async {
