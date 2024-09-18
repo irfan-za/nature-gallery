@@ -1,5 +1,5 @@
 <p align="center">
-    <h1 align="center">NATURE GALLERY app</h1>
+    <h1 align="center">NATURE GALLERY</h1>
 </p>
 
 ##### Table of Contents
